@@ -1,3 +1,3 @@
 # pwa-parisjs
 
-See here https://off-line-dot-captain-jojo-test.appspot.com/
+See here https://sw-precache-dot-captain-jojo-test.appspot.com/

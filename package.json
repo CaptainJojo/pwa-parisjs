@@ -4,9 +4,14 @@
   "description": "A Progressive Web App",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "sw": "gulp sw-precache"
   },
   "dependencies": {
     "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "sw-precache": "^3.2.0"
   }
 }
