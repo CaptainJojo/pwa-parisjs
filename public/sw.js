@@ -26,7 +26,7 @@
 
 
 // *** Start of auto-included sw-toolbox code. ***
-/* 
+/*
  Copyright 2016 Google Inc. All Rights Reserved.
 
  Licensed under the Apache License, Version 2.0 (the "License");
@@ -273,11 +273,31 @@ self.addEventListener('fetch', function(event) {
   }
 });
 
+console.log('Started', self);
+
+self.addEventListener('install', function(event) {
+  self.skipWaiting();
+  console.log('Installed', event);
+});
+
+self.addEventListener('activate', function(event) {
+  console.log('Activated', event);
+});
+
+self.addEventListener('push', function(event) {
+  console.log('Push message', event);
+
+  var title = 'Le push de test :)';
+
+  event.waitUntil(
+    self.registration.showNotification(title, {
+     body: 'Bravo tu l\'as reçu',
+     icon: 'images/icon.png',
+     tag: 'my-tag'
+   }));
+});
 
 // Runtime cache configuration, using the sw-toolbox library.
 
 toolbox.router.get(/\//, toolbox.cacheFirst, {"cache":{"maxAgeSeconds":10,"name":"articles-cache"}});
 toolbox.router.get(/\/article/, toolbox.cacheFirst, {"cache":{"maxAgeSeconds":10,"name":"articles-cache"}});
-
-
-

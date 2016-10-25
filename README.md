@@ -1,3 +1,3 @@
 # pwa-parisjs
 
-See here https://manifest-dot-captain-jojo-test.appspot.com/
+See here https://push-dot-captain-jojo-test.appspot.com/
