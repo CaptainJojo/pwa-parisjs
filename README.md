@@ -1,3 +1,3 @@
 # pwa-parisjs
 
-See here https://no-pwa-dot-captain-jojo-test.appspot.com/
+See here https://sw-register-dot-captain-jojo-test.appspot.com/

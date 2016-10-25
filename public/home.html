@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
+    <script>
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker
+                 .register('/sw.js')
+                 .then(function() { console.log("Service Worker Registered"); });
+      }
+    </script>
     <link rel="stylesheet" href="/main.css">
     <link rel="stylesheet" href="/async.css">
     <header class="co-header">
