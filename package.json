@@ -1,0 +1,12 @@
+{
+  "name": "pwa-parisjs",
+  "version": "0.0.1",
+  "description": "A Progressive Web App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
