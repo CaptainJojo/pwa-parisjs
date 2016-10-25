@@ -49,7 +49,7 @@
 
 
 /* eslint-disable quotes, comma-spacing */
-var PrecacheConfig = [["/article/alorscettearticle.html","2ccf6086371ccd73147bbd9200b6d9e0"],["/async.css","de23dea76b65802578a27defd1f093ae"],["/async.css.map","6238a734c7e88cdcc0e51e6e56e8802b"],["/home.html","eb4cacbbfc3d33b80f9fc70bf298b7ca"],["/main.css","94fdb805b81226067417b641cdaf708b"],["/main.css.map","b2a4843e691152b41bebdb1e64adde5c"],["/register.js","a362645348fe9503a953185dff2fc26b"]];
+var PrecacheConfig = [["/article/alorscettearticle.html","00f982e00ded415bf559ffc7ca1cf491"],["/async.css","de23dea76b65802578a27defd1f093ae"],["/async.css.map","6238a734c7e88cdcc0e51e6e56e8802b"],["/home.html","9a1c4bbfb46f0b6df1b486db32ef5be1"],["/images/touch/apple-touch-icon.png","7326f54bfe6776293f08b34c3a5fde7b"],["/images/touch/chrome-touch-icon-192x192.png","571f134f59f14a6d298ddd66c015b293"],["/images/touch/icon-128x128.png","7c46d686765c49b813ac5eb34fabf712"],["/images/touch/ms-touch-icon-144x144-precomposed.png","452d90b250d6f41a0c8f9db729113ffd"],["/main.css","94fdb805b81226067417b641cdaf708b"],["/main.css.map","b2a4843e691152b41bebdb1e64adde5c"],["/register.js","a362645348fe9503a953185dff2fc26b"]];
 /* eslint-enable quotes, comma-spacing */
 var CacheNamePrefix = 'sw-precache-v1--' + (self.registration ? self.registration.scope : '') + '-';
 
